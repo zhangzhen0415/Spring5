@@ -7,5 +7,6 @@ public class Main {
     public static void hello(String str) {
         Optional.ofNullable(str).ifPresent(s -> System.out.print(str.toLowerCase()));
         Optional.ofNullable(str).orElse("ccc");
+        // test
     }
 }
