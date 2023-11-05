@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <bean name="user" class="pojo.User">-->
+<!--        <property name="name" value="zz"/>-->
+<!--        <property name="age" value="18"/>-->
+<!--    </bean>-->
+         <!--通过构造器 index赋值 -->
+        <bean name="user" class="pojo.User">
+            <constructor-arg index="0" value="zs"/>
+        </bean>
+
+</beans>
